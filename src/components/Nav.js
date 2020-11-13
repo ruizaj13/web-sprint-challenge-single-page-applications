@@ -8,7 +8,7 @@ const Nav = () => {
             <h1>Lambda Eats</h1>
             <ul className='navLinks'>
                 <Link to='/'>
-                    <li>Home</li>
+                    <li key=''>Home</li>
                 </Link>
             </ul>
         </nav>
